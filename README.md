@@ -77,7 +77,7 @@ npm run dev
 
 Open → `http://localhost:3000`
 
-> **Note:** The frontend is also deployed at [your-vercel-url] but requires the backend and Ollama running locally to generate prompts.
+> **Note:** The frontend is also deployed at [https://prompt-craft-gamma-five.vercel.app/] but requires the backend and Ollama running locally to generate prompts.
 
 ---
 
