@@ -9,7 +9,7 @@ A full-stack AI tool that converts plain-language ideas into professional, struc
 <details>
   <summary>View Full Screenshot</summary>
 
-  <img src="./images/prompt-craft-example.png" />
+  <img src="./prompt-craft-example.png" />
 
 </details>
 
