@@ -1,4 +1,4 @@
-# Prompt-Craft
+# PromptCraft
 
 **Human ideas → structured AI prompts**
 
@@ -37,30 +37,45 @@ Most people know what they want but struggle to write a good AI prompt. PromptCr
 
 ## Getting Started
 
-> **Prerequisite — Ollama must be installed and running locally.**
-> The backend calls phi3 via Ollama on `localhost:11434`. Without it, generation won't work.
-> Download Ollama → https://ollama.com/download
+### One-time setup
 
-### 1. Pull the AI model
+Clone the repo, then run the setup script for your OS. It handles everything — checks Ollama, pulls phi3, creates a Python virtual environment, installs all dependencies, and installs frontend packages.
+
+**Mac / Linux:**
 ```bash
-ollama pull phi3
+chmod +x setup.sh
+./setup.sh
 ```
 
-### 2. Start the backend
+**Windows:**
+```
+Double-click setup.bat  (or run it in Command Prompt)
+```
+
+> **Ollama must be installed before running the script.**
+> The script will tell you if it's missing and give you the download link.
+> → https://ollama.com/download
+
+---
+
+### Starting the app (after setup)
+
+Open two terminals:
+
+**Terminal 1 — Backend:**
 ```bash
 cd backend
-pip install -r requirements.txt
+source venv/bin/activate        # Windows: venv\Scripts\activate
 uvicorn main:app --reload
 ```
-Backend runs at `http://127.0.0.1:8000`
 
-### 3. Start the frontend
+**Terminal 2 — Frontend:**
 ```bash
 cd frontend
-npm install
 npm run dev
 ```
-App runs at `http://localhost:3000`
+
+Open → `http://localhost:3000`
 
 > **Note:** The frontend is also deployed at [your-vercel-url] but requires the backend and Ollama running locally to generate prompts.
 
