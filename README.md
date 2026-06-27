@@ -1,4 +1,4 @@
-# PromptCraft
+# Prompt-Craft
 
 **Human ideas → structured AI prompts**
 
@@ -8,17 +8,17 @@ A full-stack AI tool that converts plain-language ideas into professional, struc
 
 ## What it does
 
-Most people know what they want but struggle to write a good AI prompt. PromptCraft bridges that gap. You describe your idea in plain language, pick a structure and style, and the app generates a clean, ready-to-use prompt you can copy or export.
+Most people know what they want but struggle to write a good AI prompt. Prompt-Craft bridges that gap. You describe your idea in plain language, pick a structure and style, and the app generates a clean, ready-to-use prompt you can copy or export.
 
 ---
 
 ## Features
 
-- **5 prompt structures** — Role+Goal, Task+Context, Persona+Scenario, System+User, Chain of Thought
-- **Custom structure builder** — pick 4–6 sections from 18 options and build your own format
+- **5 prompt structures**
+- **Custom structure builder**
 - **5 length & style modes** — Short, Medium, Long, Bullet-only, Paragraph-style
-- **Profession context** — tell the app who you are (e.g. "3rd year IT student", "Filmmaker") so prompts match your background
-- **Prompt history** — last 10 prompts saved locally, expandable, reloadable
+- **Profession context** — tell the app who you are (e.g. "Web Developer", "Filmmaker") so prompts match your background
+- **Prompt history**
 - **Export as .txt** — download any prompt as a text file
 - **Copy to clipboard** — one click copy on every result
 
@@ -130,5 +130,7 @@ Response:
 ---
 
 ## License
+This project is licensed under the MIT License.
 
-MIT
+## Author
+Developed by Kunal Dharme.
