@@ -6,6 +6,14 @@ A full-stack AI tool that converts plain-language ideas into professional, struc
 
 ---
 
+<details>
+  <summary>View Full Screenshot</summary>
+
+  <img src="./images/prompt-craft-example.png" />
+
+</details>
+
+---
 ## What it does
 
 Most people know what they want but struggle to write a good AI prompt. Prompt-Craft bridges that gap. You describe your idea in plain language, pick a structure and style, and the app generates a clean, ready-to-use prompt you can copy or export.
